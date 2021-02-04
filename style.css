@@ -1,0 +1,39 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  clear: both;
+}
+
+div.content {
+  width: 762px;
+  position: relative;
+}
+
+div.border {
+  background-image: url("img/stone.png");
+  background-repeat: repeat-y;
+  width: 60px;
+}
+
+h1,h2,td {
+  font-family: georgia;
+  text-align: center;
+}
+
+p {
+  margin: 12px;
+  font-family: verdana;
+  font-size: 20px;
+}
